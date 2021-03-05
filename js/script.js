@@ -1,10 +1,10 @@
 var calcolaPrezzo = document.getElementById('calcola-prezzo');
-var burgerName = document.getElementById("burgername");
-var checkBox = document.getElementsByClassName("box");
-var sum = 50;
-var prezzo = document.getElementById("prezzo");
-var couponList = ["124", "4321", "1234qbc", "qbc1234"]
-var coupon = document.getElementById("coupon");
+    burgerName = document.getElementById("burgername");
+    checkBox = document.getElementsByClassName("box");
+    sum = 50;
+    prezzo = document.getElementById("prezzo");
+    couponList = ["124", "4321", "1234qbc", "qbc1234"]
+    coupon = document.getElementById("coupon");
 //ascolto click
 
 calcolaPrezzo.addEventListener("click",
