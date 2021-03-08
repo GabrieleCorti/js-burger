@@ -1,7 +1,6 @@
 var calcolaPrezzo = document.getElementById('calcola-prezzo');
     burgerName = document.getElementById("burgername");
     checkBox = document.getElementsByClassName("box");
-    sum = 50;
     prezzo = document.getElementById("prezzo");
     couponList = ["124", "4321", "1234qbc", "qbc1234"]
     coupon = document.getElementById("coupon");
@@ -12,7 +11,7 @@ calcolaPrezzo.addEventListener("click",
 
     if ( burgerName.value != ""){
       //scorre fra la lista di cekbox e guarda se sono cekati
-
+      var sum = 50;
       for (var i = 0; i < checkBox.length; i++) {
 
         if (checkBox[i].checked == true) {
